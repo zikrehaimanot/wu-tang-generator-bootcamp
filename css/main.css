@@ -1,0 +1,49 @@
+h1 {
+  color: #008080
+}
+body{
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  margin-top: 5%;
+}
+#result{
+  position: relative;
+  left: 35px;
+}
+h1 {
+  color: #2E8B57;
+}
+​
+button {
+  font-size: 15px;
+  margin-top: 5%;
+  background-color: #DB7093;
+  border-style: none;
+
+
+
+
+
+
+/* Create a Wu-Tang Clan name generator.
+Present the user with 5 survey questions
+and based on those answers randomly generate
+their name. The name doesn't have to be
+exact names, but Wu-Tang sounding-ish names.
+Ex: Childish Gambino (who actually got
+his name from a Wu-Tang name generator). */
+
+
+/* 10 WuTang Names:
+RZA
+method man
+ol' ditry bastard
+ghost face killa
+GZA
+raekwon
+u-god
+inspectah deck
+cappadonna
+matsa killa */

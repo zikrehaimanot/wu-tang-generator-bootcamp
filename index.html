@@ -1,0 +1,63 @@
+<!-- Goal: Create a Wu-Tang Clan name generator.
+Present the user with 5 survey questions and based on those answers randomly generate their name.
+The name doesn't have to be exact names, but Wu-Tang sounding-ish names.
+Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator). -->
+<!-- Worked on with House Cass, Aiperi, Mauricio & Seth  -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./css/main.css">
+  <title></title>
+</head>
+
+<body>
+  <section>
+      <section id="result"></section>
+    <h1> Wu Tang Name Generator </h1>
+  <form id="generator" class="" action="index.html" method="post">
+    <fieldset>
+      <legend>Do you like the color black?</legend>
+      <input id="yesColor" type="radio" value="Yes" name="color">
+      <label for="yesColor">Yes</label>
+      <input id="noColor" type="radio" value="No" name="color">
+      <label for="noColor">No</label>
+    </fieldset>
+    <fieldset>
+      <legend>Do you like Cheesecake?</legend>
+      <input id="yesCake" type="radio" value="Yes" name="Cake">
+      <label for="yesCake">Yes</label>
+      <input id="noCake" type="radio" value="No" name="Cake">
+      <label for="noCake">No</label>
+    </fieldset>
+    <fieldset>
+      <legend>Do you watch Game of Thrones?</legend>
+      <input id="gotYes" type="radio" value="Yes" name="GOT">
+      <label for="gotYes">Yes</label>
+      <input id="gotNo" type="radio" value="No" name="GOT">
+      <label for="gotNo">No</label>
+    </fieldset>
+    <fieldset>
+      <legend>Do you like sports?</legend>
+      <input id="sportsYes" type="radio" value="Yes" name="Sports">
+      <label for="sportsYes">Yes</label>
+      <input id="sportsNo" type="radio" value="No" name="Sports">
+      <label for="sportsNo">No</label>
+    </fieldset>
+    <fieldset>
+      <legend>Do you like music?</legend>
+      <input id="musicYes" type="radio" value="Yes" name="Music">
+      <label for="musicYes">Yes</label>
+      <input id="musicNo" type="radio" value="No" name="Music">
+      <label for="musicNo">No</label>
+    </fieldset>
+    <button type="submit" name="button">Submit Form</button>
+  </form>
+  </section>
+
+  <script type="text/javascript" src="./js/main.js"></script>
+</body>
+
+</html>
